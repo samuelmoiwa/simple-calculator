@@ -1,0 +1,136 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blueviolet;
+  scroll-behavior: smooth;
+}
+
+h2{
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.border{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-style: solid;
+  border-color: rgb(39, 39, 39);
+  background-color: rgb(115, 32, 192);
+  border-width: 1px;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mainDiv{
+  display: flex;
+  flex-direction: column;     
+}
+.input-border{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  width: 340px;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;   
+}
+.input1,.input2 {
+  width: 300px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.buttons-border{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+  width: 340px;
+}
+.buttons{
+  margin-top: 10px;  
+}
+.divideBtn,.subtractBtn, .addBtn{
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+  color: aliceblue;
+  font-weight: 1000;
+  background-color: coral;
+  border: none;
+}
+.divideBtn{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.addBtn{
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.subtractBtn:hover{
+  width: 120px;
+  height: 35px;
+  background-color: rgb(253, 138, 95);
+}
+.divideBtn:hover{
+  width: 120px;
+  height: 35px;
+  background-color: rgb(253, 138, 95);
+}
+.addBtn:hover{
+  width: 120px;
+  height: 35px;
+  background-color: rgb(253, 138, 95);  
+}
+.statement{
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.answer-output{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 0px;
+}
+#answer-out-put{
+  display: flex;
+  align-content: center;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 5px;
+}
+p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clear-btn-div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+
+.clear-btn{
+  background-color: rgb(47, 109, 6);
+  border: none;
+  height: 30px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.clear-btn:hover{
+  cursor: pointer;
+  background-color: rgb(58, 126, 13);
+}
