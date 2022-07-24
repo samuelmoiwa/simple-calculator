@@ -10,7 +10,7 @@ Run the command below from the terminal
 - cd simple-calculator
 - start index.html
 
-# Panda NTF
+# Simple Calculator
 
 > Description the project.
 - simple HTML, CSS & javaScript code, calculates user input.
